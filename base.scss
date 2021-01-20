@@ -1,0 +1,58 @@
+/*=====================================================
+Plantilla para el sitio Tarea 5 de DIW
+v: 1.0
+Última actualización: 21 enero 18:44
+======================================================*/
+//FUENTES
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+// PERSONALIZACION BOOTSTRAP
+$font-family-base: "Montserrat", sans-serif !default;
+$theme-colors: (
+	"primary-light": rgb(224, 251, 252),
+	"primary": rgb(152, 193, 217),
+	"primary-dark": rgb(61, 90, 128),
+	"primary-black": rgb(41, 50, 65),
+	"secondary": rgb(238, 108, 77),
+);
+$enable-responsive-font-sizes: true;
+$display5-size: 3rem;
+$display6-size: 3rem;
+$display7-size: 3rem;
+
+$display5-weight: 300;
+$display6-weight: 300;
+$display7-weight: 300;
+
+@import "lib/bootstrap-4.5.3/scss/bootstrap.scss"; // Bootstrap 4.5.3
+
+.display-5 {
+	@include font-size($display5-size);
+	font-weight: $display5-weight;
+	line-height: $display-line-height;
+}
+
+.display-6 {
+	@include font-size($display6-size);
+	font-weight: $display6-weight;
+	line-height: $display-line-height;
+}
+
+.display-7 {
+	@include font-size($display7-size);
+	font-weight: $display7-weight;
+	line-height: $display-line-height;
+}
+
+$fa-font-path: "/lib/fontawesome-free-5.15.1-web/webfonts";
+@import "lib/fontawesome-free-5.15.1-web/scss/fontawesome.scss"; // FontAwesome 5.15.1
+@import "lib/fontawesome-free-5.15.1-web/scss/solid.scss";
+@import "lib/fontawesome-free-5.15.1-web/scss/regular.scss";
+@import "lib/fontawesome-free-5.15.1-web/scss/brands.scss";
+
+/* COMIENZA EL CÓDIGO CSS PROPIO */
+#navegacion {
+}
+#navegacion:hover {
+	background-color: var(--bg-primary);
+}

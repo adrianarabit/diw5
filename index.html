@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 5 - Página personal</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilo-personal.css">
+</head>
+
+<body>
+    <header class='container-fluid bg-secondary'>
+        <div class="row">
+            <div class='align-center'>
+                <blockquote class='quote-header text-primary-light p-5'>
+                    <p class='quote-text'><span class='quote-mark'>❝</span>LA ÚNICA FORMA DE HACER UN GRAN TRABAJO ES
+                        AMANDO LO QUE HACEN<span class='quote-mark'>❞</span>
+                    </p>
+
+                    <p class='blockquote-footer quote-footer'>STEVE JOBS</p>
+                </blockquote>
+
+            </div>
+        </div>
+    </header>
+    <!-- INICIO MENÚ -->
+    <nav id='main-nav' class='navbar navbar-expand-lg sticky-top bg-primary-black navbar-dark text-primary-light'>
+        <div id='nav-button' class='justify-content-start'>
+            <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class='d-lg-none text-center lead'>MENU</div>
+        </div>
+        <div class='px-2  mx-2 col col-lg-2 navbar-brand text-center text-lg-left'>
+            <img src="img/logo.svg" alt="Adrián Arabit" class="d-none d-lg-inline img-fluid">
+            <div id='logo-label'>
+                <p noletter>Adrián</p>
+                <p>arabit</p>
+                <p>Ferre</p>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end bg-primary-black" id="navigation">
+            <ul class='navbar-nav flex-wrap px-3'>
+                <li class="nav-item">
+                    <a class="nav-link text-center text-lg-left" href="#start">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center text-lg-left" href="#about-me">SOBRE MI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center text-lg-left" href="#qualities">CUALIDADES</a>
+                </li>
+                <li class="nav-item text-center text-lg-left">
+                    <a class="nav-link" href="#aptitudes">PREMIOS</a>
+                </li>
+                <li class="nav-item text-center text-lg-left">
+                    <a class="nav-link" href="#awards">APTITUDES</a>
+                </li>
+                <li class="nav-item text-center text-lg-left">
+                    <a class="nav-link" href="#resume">CURRICULUM</a>
+                </li>
+                <li class="nav-item text-center text-lg-left">
+                    <a class="nav-link" href="#contact">CONTACTO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- FIN MENÚ -->
+    <main class='container'>
+        <div id='sections-wrapper' class='vertical-slider'>
+            <section id='start'>
+                <div id='start-header' class='section-header show-scroll'>
+                    INICIO
+                </div>
+                <div class='card bg-primary p-3'>
+                    <div class='display-3 mb-2'>¡Bienvenido!</div>
+                    <div class=''>
+                        <p>Antes de comenzar <span class='font-italic font-weight-bold'>me gustaría agradecer tu visita
+                                y el tiempo dedicado</span>, se lo valioso que es y por ello he estructurado este sitio
+                            de la
+                            forma mas limpia posible. De modo, que pueda conocerme, y ver alguno de mis trabajos sin que
+                            pierda su preciado tiempo recorriendo un sitio con múltiples secciones artificialmente
+                            extendidas.</p>
+                        <p>Finalmente, encontrará mi currículum vitae en fichero PDF. Donde se tratarán los diversos
+                            puntos
+                            de un modo mas resumido y formal, así como una versión en inglés del mismo.</p>
+                        <p class='lead text-right'>
+                            Espero que la visita sea de su agrado.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src=" js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src='lib/fontawesome-free-5.15.1-web/js/all.min.js'></script>
+    <script src="js/tarea5.js"></script>
+</body>
+
+</html>
