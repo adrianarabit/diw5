@@ -305,34 +305,6 @@ section {
 	}
 }
 
-@keyfarmes header-spacing {
-	0% {
-		letter-spacing: 0;
-	}
-	100% {
-		letter-spacing: 1rem;
-	}
-}
-
-/* NAV BORDER EXPAND */
-@-webkit-keyframes header-spacing {
-	0% {
-		letter-spacing: 0;
-	}
-	100% {
-		letter-spacing: 1rem;
-	}
-}
-
-@keyfarmes header-spacing {
-	0% {
-		letter-spacing: 0;
-	}
-	100% {
-		letter-spacing: 1rem;
-	}
-}
-
 /* LIST REVEAL */
 @keyframes list-reveal {
 	0% {

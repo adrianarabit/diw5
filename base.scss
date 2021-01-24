@@ -51,8 +51,4 @@ $fa-font-path: "/lib/fontawesome-free-5.15.1-web/webfonts";
 @import "lib/fontawesome-free-5.15.1-web/scss/brands.scss";
 
 /* COMIENZA EL CÓDIGO CSS PROPIO */
-#navegacion {
-}
-#navegacion:hover {
-	background-color: var(--bg-primary);
-}
+@import "estilo-personal";
