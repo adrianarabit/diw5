@@ -271,6 +271,26 @@ section {
 	font-size: 2rem;
 	color: var(--primary-dark);
 }
+
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 0;
+	margin: 0;
+	bottom: 3rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	height: 10vh;
+	width: 5vw;
+	background-color: black;
+}
+
+.carousel-control-caption {
+	font-weight: 800;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+}
 /*--------------------
  ANIMATIONS 
 ---------------------*/
