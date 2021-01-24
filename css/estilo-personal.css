@@ -179,8 +179,14 @@ section {
 }
 
 #resume .card {
-	min-width: 30vw;
 	align-items: center;
+}
+
+@media (max-width: 800px) {
+	#resume .card {
+		min-width: 70vw;
+		display: block;
+	}
 }
 
 #resume svg {

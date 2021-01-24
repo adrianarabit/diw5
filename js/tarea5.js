@@ -15,6 +15,30 @@ window.onscroll = function () {
 	}
 };
 
+//CONTACT FORM MESSAGE CHARACTERS COUNTER
+$("#contact-message").change(function () {
+	$("#contact-chars").text($(this).val().length);
+	if (
+		$(this).val().length >= 700 &&
+		$(this).val().length < 1000 &&
+		!$("#contact-message-help").hasClass("bg-warning")
+	) {
+		$("#contact-message-help").removeClass("text-muted");
+		$("#contact-message-help").removeClass("bg-danger");
+		$("#contact-message-help").addClass("bg-warning");
+	} else if (
+		$(this).val().length == 1000 &&
+		!$("#contact-message-help").hasClass("bg-danger")
+	) {
+		$("#contact-message-help").removeClass("bg-warning");
+		$("#contact-message-help").addClass("bg-danger");
+	} else if ($(this).val().length < 700) {
+		$("#contact-message-help").removeClass("bg-warning");
+		$("#contact-message-help").removeClass("bg-danger");
+		$("#contact-message-help").addClass("text-muted");
+	}
+});
+
 /**
  * This method add an animation css class to gived node based on window viewport*
  * @param {Object} Node node objective who contains.
